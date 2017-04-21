@@ -6,6 +6,7 @@ sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
 locale-gen
 
 ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
+localectl set-x11-keymap fr
 
 # Create and configure users
 usermod -s /usr/bin/zsh root

@@ -1,9 +1,8 @@
-NAME="CobraOS"
-PRETTY_NAME="CobraOS"
+PRETTY_NAME="CobraOS 2.0 (Ardent Artist)"
+NAME=CobraOS
 ID=cobra
-ID_LIKE=cobraos
+ID_LIKE=arch
+VERSION="2.0 (Ardent Artist)"
+VERSION_CODENAME=artist
+VERSION_ID=2.0
 ANSI_COLOR="0;34"
-HOME_URL="https://cobra.epi.codes/"
-SUPPORT_URL="https://cobra.epi.codes/"
-BUG_REPORT_URL="https://bugs.cobra.epi.codes/"
-

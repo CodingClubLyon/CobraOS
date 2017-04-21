@@ -1,0 +1,9 @@
+NAME="CobraOS"
+PRETTY_NAME="CobraOS"
+ID=cobra
+ID_LIKE=cobraos
+ANSI_COLOR="0;34"
+HOME_URL="https://cobra.epi.codes/"
+SUPPORT_URL="https://cobra.epi.codes/"
+BUG_REPORT_URL="https://bugs.cobra.epi.codes/"
+

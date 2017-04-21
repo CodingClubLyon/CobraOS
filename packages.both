@@ -38,8 +38,11 @@ zd1211-firmware
 nodm
 xf86-input-libinput
 xf86-video-fbdev
+xf86-video-vesa
 xorg-server
 xorg-sessreg
 xfce4
 mousepad
 firefox
+networkmanager
+network-manager-applet

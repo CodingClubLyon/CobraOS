@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "$(< /etc/hostname)-$(head -c 10 /etc/machine-id)" > /etc/hostname
+hostname -F /etc/hostname

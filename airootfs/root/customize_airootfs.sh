@@ -4,7 +4,7 @@ echo -e "\n\n#####################################\n#   STARTING CUSTOMIZATION S
 
 set -e -u
 
-sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+sed -Ei 's/#((en_US|fr_FR)\.UTF-8)/\1/' /etc/locale.gen
 locale-gen
 
 ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime

@@ -16,7 +16,9 @@ chmod 700 /root
 
 useradd -mU -s /usr/bin/zsh student
 useradd -mUG wheel -s /usr/bin/zsh cobra
-chpasswd <<< "cobra:cobra42"
+
+chpasswd < /root/passwords
+rm /root/passwords
 
 # Allow the wheel group to use sudo
 sed -i 's/# \(%wheel ALL=(ALL) NOPASSWD: ALL\)/\1/' /etc/sudoers

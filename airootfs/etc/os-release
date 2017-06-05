@@ -1,8 +1,8 @@
-PRETTY_NAME="CobraOS 2.0.2 (Ardent Artist)"
+PRETTY_NAME="CobraOS 2.0.4 (Ardent Artist)"
 NAME=CobraOS
 ID=cobra
 ID_LIKE=arch
-VERSION="2.0.2 (Ardent Artist)"
+VERSION="2.0.4 (Ardent Artist)"
 VERSION_CODENAME=artist
-VERSION_ID=2.0.2
+VERSION_ID=2.0.4
 ANSI_COLOR="0;34"
